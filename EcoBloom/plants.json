@@ -1,0 +1,427 @@
+[
+  {
+    "id": 1,
+    "name": "Aloe Vera",
+    "scientific_name": "Aloe barbadensis miller",
+    "image": "https://m.media-amazon.com/images/I/71vDeWZkH8L._AC_UF350,350_QL80_.jpg",
+    "watering_frequency": "Once every 2\u00e2\u20ac\u201c3 weeks",
+    "watering_times": [
+      "Morning"
+    ],
+    "sunlight": "Partial",
+    "soil": "Well-draining cactus/succulent mix",
+    "fertilizer": "Diluted liquid fertilizer once in spring",
+    "growth_type": "Pot",
+    "care_tips": "Allow soil to dry completely between waterings. Excellent beginner-friendly plant.",
+    "saved": false,
+    "last_watered": null,
+    "watering_status": {
+      "morning": false,
+      "evening": false
+    }
+  },
+  {
+    "id": 2,
+    "name": "Tulsi (Holy Basil)",
+    "scientific_name": "Ocimum sanctum",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi1UVqJZC_zqjwYHkLCHSzUkgAwwKaH2LbfA&s",
+    "watering_frequency": "Daily during summer, alternate days in winter",
+    "watering_times": [
+      "Morning",
+      "Evening"
+    ],
+    "sunlight": "Full",
+    "soil": "Rich, loamy soil with good drainage",
+    "fertilizer": "Organic compost monthly",
+    "growth_type": "Pot or Open Space",
+    "care_tips": "Pinch flowers to promote leaf growth. Sacred plant with medicinal benefits.",
+    "saved": true,
+    "last_watered": "2025-11-03T22:50:23.438196",
+    "watering_status": {
+      "morning": true,
+      "evening": true
+    }
+  },
+  {
+    "id": 3,
+    "name": "Rose",
+    "scientific_name": "Rosa spp.",
+    "image": "https://m.media-amazon.com/images/I/41Vl7W3nwcL._AC_UF1000,1000_QL80_.jpg",
+    "watering_frequency": "Daily in summer, 3\u00e2\u20ac\u201c4 times weekly in winter",
+    "watering_times": [
+      "Morning"
+    ],
+    "sunlight": "Full",
+    "soil": "Well-drained, slightly acidic soil rich in organic matter",
+    "fertilizer": "Balanced fertilizer every 2\u00e2\u20ac\u201c3 weeks",
+    "growth_type": "Open Space or Large Pot",
+    "care_tips": "Prune regularly to encourage blooms. Watch for pests like aphids.",
+    "saved": true,
+    "last_watered": "2025-11-03T22:49:58.169742",
+    "watering_status": {
+      "morning": true,
+      "evening": false
+    }
+  },
+  {
+    "id": 4,
+    "name": "Money Plant",
+    "scientific_name": "Epipremnum aureum",
+    "image": "https://images.unsplash.com/photo-1614594975525-e45190c55d0b?w=400",
+    "watering_frequency": "Once or twice weekly",
+    "watering_times": [
+      "Morning"
+    ],
+    "sunlight": "Partial to Shade",
+    "soil": "Well-draining potting mix",
+    "fertilizer": "Liquid fertilizer once a month",
+    "growth_type": "Pot",
+    "care_tips": "Grows in soil or water. Great air purifier and easy to maintain.",
+    "saved": false,
+    "last_watered": null,
+    "watering_status": {
+      "morning": false,
+      "evening": false
+    }
+  },
+  {
+    "id": 5,
+    "name": "Cactus",
+    "scientific_name": "Cactaceae family",
+    "image": "https://images.unsplash.com/photo-1509937528035-ad76254b0356?w=400",
+    "watering_frequency": "Once every 2\u00e2\u20ac\u201c4 weeks",
+    "watering_times": [
+      "Morning"
+    ],
+    "sunlight": "Full",
+    "soil": "Sandy, well-draining cactus mix",
+    "fertilizer": "Cactus fertilizer during growing season",
+    "growth_type": "Pot",
+    "care_tips": "Overwatering can kill it. Needs sunlight and minimal water.",
+    "saved": false,
+    "last_watered": null,
+    "watering_status": {
+      "morning": false,
+      "evening": false
+    }
+  },
+  {
+    "id": 6,
+    "name": "Snake Plant",
+    "scientific_name": "Sansevieria trifasciata",
+    "image": "https://m.media-amazon.com/images/I/71Y-Hrral6L._AC_UF1000,1000_QL80_.jpg",
+    "watering_frequency": "Once every 2\u00e2\u20ac\u201c3 weeks",
+    "watering_times": [
+      "Morning"
+    ],
+    "sunlight": "Partial to Full",
+    "soil": "Well-draining mix",
+    "fertilizer": "Diluted fertilizer in growing season",
+    "growth_type": "Pot",
+    "care_tips": "Converts CO2 to oxygen at night. Low maintenance and hardy.",
+    "saved": false,
+    "last_watered": null,
+    "watering_status": {
+      "morning": false,
+      "evening": false
+    }
+  },
+  {
+    "id": 7,
+    "name": "Bamboo",
+    "scientific_name": "Bambusoideae",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm7tybgPK5sMn1cWeQ_OF5xgOp0xDIFJHr1g&s",
+    "watering_frequency": "Keep soil consistently moist",
+    "watering_times": [
+      "Morning",
+      "Evening"
+    ],
+    "sunlight": "Partial",
+    "soil": "Rich, well-draining soil",
+    "fertilizer": "Balanced fertilizer monthly",
+    "growth_type": "Open Space or Large Pot",
+    "care_tips": "Fast-growing and symbolizes luck. Requires humidity.",
+    "saved": false,
+    "last_watered": null,
+    "watering_status": {
+      "morning": false,
+      "evening": false
+    }
+  },
+  {
+    "id": 8,
+    "name": "Marigold",
+    "scientific_name": "Tagetes spp.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuBO67VJCFt3mbmjsE3T5GMx6yqW0-PuLQjA&s",
+    "watering_frequency": "Daily during hot weather",
+    "watering_times": [
+      "Morning"
+    ],
+    "sunlight": "Full",
+    "soil": "Moderately fertile soil",
+    "fertilizer": "Low-nitrogen fertilizer biweekly",
+    "growth_type": "Pot or Open Space",
+    "care_tips": "Deadhead regularly. Repels pests naturally.",
+    "saved": false,
+    "last_watered": null,
+    "watering_status": {
+      "morning": false,
+      "evening": false
+    }
+  },
+  {
+    "id": 9,
+    "name": "Hibiscus",
+    "scientific_name": "Hibiscus rosa-sinensis",
+    "image": "https://m.media-amazon.com/images/I/71hNfU7o5kL._AC_UF1000,1000_QL80_.jpg",
+    "watering_frequency": "Daily in summer",
+    "watering_times": [
+      "Morning",
+      "Evening"
+    ],
+    "sunlight": "Full",
+    "soil": "Rich, well-draining soil",
+    "fertilizer": "High-potassium fertilizer weekly",
+    "growth_type": "Open Space or Large Pot",
+    "care_tips": "Prune after flowering. Needs consistent watering.",
+    "saved": false,
+    "last_watered": null,
+    "watering_status": {
+      "morning": false,
+      "evening": false
+    }
+  },
+  {
+    "id": 10,
+    "name": "Peace Lily",
+    "scientific_name": "Spathiphyllum spp.",
+    "image": "https://radhakrishnaagriculture.in/cdn/shop/files/peacelily.jpg?v=1709184309",
+    "watering_frequency": "Once or twice weekly",
+    "watering_times": [
+      "Morning"
+    ],
+    "sunlight": "Shade to Partial",
+    "soil": "Rich potting mix",
+    "fertilizer": "Balanced liquid fertilizer monthly",
+    "growth_type": "Pot",
+    "care_tips": "Great indoor air purifier. Avoid direct sunlight.",
+    "saved": false,
+    "last_watered": null,
+    "watering_status": {
+      "morning": false,
+      "evening": false
+    }
+  },
+  {
+    "id": 11,
+    "name": "Spider Plant",
+    "scientific_name": "Chlorophytum comosum",
+    "image": "https://m.media-amazon.com/images/I/81WvfDsXvgL._AC_UF1000,1000_QL80_.jpg",
+    "watering_frequency": "Twice weekly",
+    "watering_times": [
+      "Morning"
+    ],
+    "sunlight": "Partial",
+    "soil": "Well-draining potting mix",
+    "fertilizer": "Liquid fertilizer bi-weekly",
+    "growth_type": "Pot",
+    "care_tips": "Produces baby plants. Easy to propagate.",
+    "saved": false,
+    "last_watered": null,
+    "watering_status": {
+      "morning": false,
+      "evening": false
+    }
+  },
+  {
+    "id": 12,
+    "name": "Jade Plant",
+    "scientific_name": "Crassula ovata",
+    "image": "https://images.unsplash.com/photo-1459156212016-c812468e2115?w=400",
+    "watering_frequency": "Once every 1\u00e2\u20ac\u201c2 weeks",
+    "watering_times": [
+      "Morning"
+    ],
+    "sunlight": "Full to Partial",
+    "soil": "Well-draining succulent mix",
+    "fertilizer": "Diluted succulent fertilizer quarterly",
+    "growth_type": "Pot",
+    "care_tips": "Avoid overwatering. Brings prosperity.",
+    "saved": false,
+    "last_watered": null,
+    "watering_status": {
+      "morning": false,
+      "evening": false
+    }
+  },
+  {
+    "id": 13,
+    "name": "Areca Palm",
+    "scientific_name": "Dypsis lutescens",
+    "image": "https://m.media-amazon.com/images/I/61l1dwmbLlL._AC_UF1000,1000_QL80_.jpg",
+    "watering_frequency": "2\u00e2\u20ac\u201c3 times weekly",
+    "watering_times": [
+      "Morning"
+    ],
+    "sunlight": "Partial to Full",
+    "soil": "Well-draining, slightly acidic potting mix",
+    "fertilizer": "Slow-release palm fertilizer quarterly",
+    "growth_type": "Pot or Open Space",
+    "care_tips": "Keep soil moist but not soggy. Mist leaves often.",
+    "saved": false,
+    "last_watered": null,
+    "watering_status": {
+      "morning": false,
+      "evening": false
+    }
+  },
+  {
+    "id": 14,
+    "name": "Mint",
+    "scientific_name": "Mentha spp.",
+    "image": "https://images.unsplash.com/photo-1628556270448-4d4e4148e1b1?w=400",
+    "watering_frequency": "Daily during summer",
+    "watering_times": [
+      "Morning",
+      "Evening"
+    ],
+    "sunlight": "Partial",
+    "soil": "Moist, rich soil",
+    "fertilizer": "Organic compost monthly",
+    "growth_type": "Pot",
+    "care_tips": "Spreads fast. Harvest regularly for fresh leaves.",
+    "saved": false,
+    "last_watered": null,
+    "watering_status": {
+      "morning": false,
+      "evening": false
+    }
+  },
+  {
+    "id": 15,
+    "name": "Curry Leaf",
+    "scientific_name": "Murraya koenigii",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Curry_Trees.jpg/1200px-Curry_Trees.jpg",
+    "watering_frequency": "Alternate days",
+    "watering_times": [
+      "Morning"
+    ],
+    "sunlight": "Full to Partial",
+    "soil": "Well-draining fertile soil",
+    "fertilizer": "Organic compost monthly",
+    "growth_type": "Pot or Open Space",
+    "care_tips": "Essential Indian herb. Prune for bushy growth.",
+    "saved": false,
+    "last_watered": null,
+    "watering_status": {
+      "morning": false,
+      "evening": false
+    }
+  },
+  {
+    "id": 16,
+    "name": "Lavender",
+    "scientific_name": "Lavandula spp.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSojznqIvcEz9L5Us4z0envZZnpIcUgrB-5kQ&s",
+    "watering_frequency": "Once or twice weekly",
+    "watering_times": [
+      "Morning"
+    ],
+    "sunlight": "Full",
+    "soil": "Well-draining, slightly alkaline soil",
+    "fertilizer": "Light feeding twice a year",
+    "growth_type": "Open Space or Pot",
+    "care_tips": "Drought-tolerant and fragrant. Prune after flowering.",
+    "saved": false,
+    "last_watered": null,
+    "watering_status": {
+      "morning": false,
+      "evening": false
+    }
+  },
+  {
+    "id": 17,
+    "name": "Basil",
+    "scientific_name": "Ocimum basilicum",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Ocimum_basilicum_8zz.jpg/1200px-Ocimum_basilicum_8zz.jpg",
+    "watering_frequency": "Daily during hot weather",
+    "watering_times": [
+      "Morning"
+    ],
+    "sunlight": "Full",
+    "soil": "Rich, well-draining soil",
+    "fertilizer": "Balanced liquid fertilizer every 2 weeks",
+    "growth_type": "Pot",
+    "care_tips": "Pinch off flower buds for leaf growth.",
+    "saved": false,
+    "last_watered": null,
+    "watering_status": {
+      "morning": false,
+      "evening": false
+    }
+  },
+  {
+    "id": 18,
+    "name": "Jasmine",
+    "scientific_name": "Jasminum spp.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/42/Common_Jasmine.jpg",
+    "watering_frequency": "Daily during growing season",
+    "watering_times": [
+      "Morning",
+      "Evening"
+    ],
+    "sunlight": "Full to Partial",
+    "soil": "Rich, well-draining soil",
+    "fertilizer": "High-phosphorus fertilizer during bloom",
+    "growth_type": "Open Space or Pot",
+    "care_tips": "Fragrant flowers. Needs pruning after bloom.",
+    "saved": false,
+    "last_watered": null,
+    "watering_status": {
+      "morning": false,
+      "evening": false
+    }
+  },
+  {
+    "id": 19,
+    "name": "Neem",
+    "scientific_name": "Azadirachta indica",
+    "image": "https://m.media-amazon.com/images/I/61ubgWjZ44L._AC_UF1000,1000_QL80_.jpg",
+    "watering_frequency": "2\u00e2\u20ac\u201c3 times weekly",
+    "watering_times": [
+      "Morning"
+    ],
+    "sunlight": "Full",
+    "soil": "Well-draining soil",
+    "fertilizer": "Organic compost annually",
+    "growth_type": "Open Space",
+    "care_tips": "Medicinal tree, drought-tolerant.",
+    "saved": false,
+    "last_watered": null,
+    "watering_status": {
+      "morning": false,
+      "evening": false
+    }
+  },
+  {
+    "id": 20,
+    "name": "Rubber Plant",
+    "scientific_name": "Ficus elastica",
+    "image": "https://m.media-amazon.com/images/I/512GDQH0dcL._AC_UF1000,1000_QL80_.jpg",
+    "watering_frequency": "Once weekly",
+    "watering_times": [
+      "Morning"
+    ],
+    "sunlight": "Partial to Full",
+    "soil": "Well-draining potting mix",
+    "fertilizer": "Balanced liquid fertilizer monthly",
+    "growth_type": "Pot",
+    "care_tips": "Wipe leaves weekly to remove dust.",
+    "saved": false,
+    "last_watered": null,
+    "watering_status": {
+      "morning": false,
+      "evening": false
+    }
+  }
+]

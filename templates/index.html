@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoBloom - Plant Care Companion</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">🌿</span>
+                <span class="logo-text">EcoBloom</span>
+            </div>
+            <div class="nav-links">
+                <button class="nav-btn active" onclick="showPage('home')">
+                    <span class="nav-icon">🏠</span> Home
+                </button>
+                <button class="nav-btn" onclick="showPage('garden')">
+                    <span class="nav-icon">🌻</span> My Garden
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Page -->
+    <div id="home-page" class="page active">
+        <div class="container">
+            <!-- Search Section -->
+            <div class="search-section">
+                <div class="search-bar">
+                    <input type="text" id="search-input" placeholder="Search plants by name..."
+                        onkeyup="filterPlants()">
+                    <button class="search-btn">🔍</button>
+                </div>
+                <div class="action-buttons">
+                    <button class="action-btn" onclick="document.getElementById('photo-upload').click()">
+                        📷 Upload Photo
+                    </button>
+                    <button class="action-btn" onclick="showAddPlantModal()">
+                        ➕ Add Plant
+                    </button>
+                </div>
+                <input type="file" id="photo-upload" accept="image/*" style="display: none;"
+                    onchange="handlePhotoUpload(event)">
+            </div>
+
+            <!-- Plants Grid -->
+            <div class="section-header">
+                <h2>All Plants</h2>
+                <p>Click any plant to view details and care information</p>
+            </div>
+            <div id="plants-grid" class="plants-grid">
+                <!-- Plants will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- My Garden Page -->
+    <div id="garden-page" class="page">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Garden</h2>
+                <p>Track and care for your saved plants</p>
+            </div>
+            <div id="garden-grid" class="plants-grid">
+                <!-- Saved plants will be loaded here -->
+            </div>
+            <div id="no-plants-message" class="no-plants" style="display: none;">
+                <div class="no-plants-icon">🌱</div>
+                <h3>Your garden is empty</h3>
+                <p>Start by adding plants from the Home page</p>
+                <button class="btn-primary" onclick="showPage('home')">Browse Plants</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Plant Details Modal -->
+    <div id="plant-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <div id="modal-body">
+                <!-- Plant details will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Add Plant Modal -->
+    <div id="add-plant-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeAddPlantModal()">&times;</span>
+            <h2>Add New Plant</h2>
+            <form id="add-plant-form" onsubmit="submitNewPlant(event)">
+                <div class="form-group">
+                    <label>Plant Name *</label>
+                    <input type="text" id="new-plant-name" required>
+                </div>
+                <div class="form-group">
+                    <label>Scientific Name</label>
+                    <input type="text" id="new-scientific-name">
+                </div>
+                <div class="form-group">
+                    <label>Image URL</label>
+                    <input type="url" id="new-image-url" placeholder="https://example.com/image.jpg">
+                </div>
+                <div class="form-group">
+                    <label>Watering Frequency *</label>
+                    <input type="text" id="new-watering-freq" placeholder="e.g., Daily, Once weekly" required>
+                </div>
+                <div class="form-group">
+                    <label>Watering Times *</label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" value="Morning" class="watering-time-checkbox"> Morning</label>
+                        <label><input type="checkbox" value="Evening" class="watering-time-checkbox"> Evening</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Sunlight *</label>
+                    <select id="new-sunlight" required>
+                        <option value="">Select sunlight requirement</option>
+                        <option value="Full">Full Sun</option>
+                        <option value="Partial">Partial Sun</option>
+                        <option value="Shade">Shade</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Soil Type</label>
+                    <input type="text" id="new-soil" placeholder="e.g., Well-draining potting mix">
+                </div>
+                <div class="form-group">
+                    <label>Fertilizer</label>
+                    <input type="text" id="new-fertilizer" placeholder="e.g., Monthly liquid fertilizer">
+                </div>
+                <div class="form-group">
+                    <label>Growth Type *</label>
+                    <select id="new-growth-type" required>
+                        <option value="">Select growth type</option>
+                        <option value="Pot">Pot</option>
+                        <option value="Open Space">Open Space</option>
+                        <option value="Pot or Open Space">Both</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Care Tips</label>
+                    <textarea id="new-care-tips" rows="3" placeholder="Enter care and maintenance tips"></textarea>
+                </div>
+                <div class="form-actions">
+                    <button type="button" class="btn-secondary" onclick="closeAddPlantModal()">Cancel</button>
+                    <button type="submit" class="btn-primary">Add Plant</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Notification Toast -->
+    <div id="notification" class="notification">
+        <span id="notification-text"></span>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+
+</html>
